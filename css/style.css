@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(73, 62, 62);
+    position: relative;
+}
+
+header nav img {
+    position: static;
+}
+
+#unlisted li {
+    display: inline-block;
+    margin: 15px;
+    vertical-align: middle;
+}
+
+#Hero {
+    width: 960px;
+    padding-left: 20%;
+}
+
+.SubBaneer {
+    margin-left: 18%;
+    display: inline-block;
+}
+
+.SubBaneer img {
+    margin: 15px;
+    border: 3px solid black;
+}
+
+#Featured {
+    border: 3px solid black;
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#paragrph {
+    width: 400px;
+    float: right;
+}
+
+#FullWidthBackground {
+    margin-top: 15px;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
